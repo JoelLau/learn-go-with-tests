@@ -1,12 +1,37 @@
 package main
 
+import "strings"
 
-import "fmt"
+const (
+	english = "EN"
+	spanish = "ES"
+	french  = "FR"
 
-func Hello() string {
-  return "Hello, World"
+	englishHelloPrefix = "Hello, "
+	spanishHelloPrefix = "Hola, "
+	frenchHelloPrefix  = "Bounjour, "
+)
+
+func Hello(name string, language string) string {
+	if name == "" {
+		name = "World"
+	}
+
+	return getGreetingPrefix(language) + name + "!"
 }
 
-func main() {
-  fmt.Println(Hello())
+// named result parameters
+// https://go.dev/doc/effective_go#named-results
+func getGreetingPrefix(language string) (prefix string) {
+	switch strings.ToUpper(language) {
+	case spanish:
+		prefix = spanishHelloPrefix
+	case french:
+		prefix = frenchHelloPrefix
+	case english:
+		fallthrough
+	default:
+		prefix = englishHelloPrefix
+	}
+	return
 }
