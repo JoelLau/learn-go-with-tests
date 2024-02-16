@@ -1,0 +1,5 @@
+go 1.22.0
+
+use (
+	./01-go-fundamentals/01-hello-world/
+)
