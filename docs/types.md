@@ -6,3 +6,5 @@ Catalogue of Golang Types:
 - int
 - [Slice](slices.md)
 - string
+- float
+- [Struct](structs.md)
