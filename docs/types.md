@@ -8,3 +8,4 @@ Catalogue of Golang Types:
 - string
 - float
 - [Struct](structs.md)
+- [Map](maps.md)
