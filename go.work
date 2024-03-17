@@ -1,0 +1,11 @@
+go 1.22.1
+
+use (
+	./01-go-fundamentals/01-hello-world
+	./01-go-fundamentals/02-integers
+	./01-go-fundamentals/03-iteration
+	./01-go-fundamentals/04-arrays-and-slices
+	./01-go-fundamentals/05-structs-methods-and-interfaces
+	./01-go-fundamentals/06-pointers-and-errors
+	./01-go-fundamentals/07-maps
+)

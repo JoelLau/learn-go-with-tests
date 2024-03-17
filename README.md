@@ -4,17 +4,18 @@ Code written while following along [Learn Go with tests](https://quii.gitbook.io
 
 ## Usage
 
-Run main
-
-```shell
-go run .
-```
-
-Run all tests
+Run all tests in module
 
 ```shell
 go test -v ./...
 ```
+
+Run all tests in workspace ([source](https://github.com/golang/go/issues/50745#issuecomment-1402920852))
+
+```shell
+go list -f '{{.Dir}}' -m | xargs go test -v -cover
+```
+
 
 Run godoc server
 
