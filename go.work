@@ -8,4 +8,5 @@ use (
 	./01-go-fundamentals/05-structs-methods-and-interfaces
 	./01-go-fundamentals/06-pointers-and-errors
 	./01-go-fundamentals/07-maps
+	./01-go-fundamentals/08-dependency-injection
 )
