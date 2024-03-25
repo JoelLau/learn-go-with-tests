@@ -1,6 +1,7 @@
 go 1.22.1
 
 use (
+	.
 	./01-go-fundamentals/01-hello-world
 	./01-go-fundamentals/02-integers
 	./01-go-fundamentals/03-iteration
@@ -9,4 +10,5 @@ use (
 	./01-go-fundamentals/06-pointers-and-errors
 	./01-go-fundamentals/07-maps
 	./01-go-fundamentals/08-dependency-injection
+	./01-go-fundamentals/09-mocking
 )
