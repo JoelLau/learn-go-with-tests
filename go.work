@@ -11,4 +11,6 @@ use (
 	./01-go-fundamentals/07-maps
 	./01-go-fundamentals/08-dependency-injection
 	./01-go-fundamentals/09-mocking
+	./01-go-fundamentals/10-concurrency
+	./01-go-fundamentals/11-select
 )
