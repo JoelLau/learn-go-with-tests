@@ -1,4 +1,4 @@
-go 1.22.1
+go 1.22.2
 
 use (
 	.
@@ -13,4 +13,5 @@ use (
 	./01-go-fundamentals/09-mocking
 	./01-go-fundamentals/10-concurrency
 	./01-go-fundamentals/11-select
+	./01-go-fundamentals/12-reflection
 )
